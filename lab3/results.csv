@@ -1,0 +1,19 @@
+section,name,metric,value,details
+1.2,Qwen2.5 retrained (byte-BPE),tokens_on_sample,81433.0,vocab=508
+1.2,BPE (char),tokens_on_sample,61547.0,vocab=500
+1.2,BPE (byte-level),tokens_on_sample,76151.0,vocab=500
+1.2,WordPiece,tokens_on_sample,73875.0,vocab=500
+1.2,Unigram,tokens_on_sample,63702.0,vocab=500
+3.2,minigpt_v1,val_loss,4.9215,tag=base_L4_ctx64; params=2085000; best_iter=2999; minutes=1.5
+3.2,minigpt_v2,val_loss,4.8127,tag=deeper_L6_ctx64; params=2480776; best_iter=2999; minutes=2.1
+3.2,minigpt_v3,val_loss,4.839,tag=longctx_L4_ctx128; params=2093192; best_iter=2999; minutes=2.7
+5.2,xlm-roberta-base-ner-hrl,F1,0.78,P=0.719; R=0.852; params_M=277.5; sec_per_sentence=0.010
+5.2,wikineural-multilingual-ner,F1,0.836,P=0.821; R=0.852; params_M=177.3; sec_per_sentence=0.011
+5.2,xlm-roberta-large-conll03 (en),F1,0.963,P=0.963; R=0.963; params_M=558.8; sec_per_sentence=0.020
+5.3,xlm-roberta-large-conll03 (en) | baseline (simple),F1,0.963,P=0.963; R=0.963; sec_per_sentence=0.020
+5.3,xlm-roberta-large-conll03 (en) | aggregation=first,F1,0.593,P=0.593; R=0.593; sec_per_sentence=0.020
+5.3,xlm-roberta-large-conll03 (en) | aggregation=max,F1,0.604,P=0.615; R=0.593; sec_per_sentence=0.020
+5.3,xlm-roberta-large-conll03 (en) | aggregation=average,F1,0.593,P=0.593; R=0.593; sec_per_sentence=0.022
+5.3,xlm-roberta-large-conll03 (en) | поріг score >= 0.5,F1,0.963,P=0.963; R=0.963; sec_per_sentence=0.021
+5.3,xlm-roberta-large-conll03 (en) | поріг score >= 0.9,F1,0.963,P=0.963; R=0.963; sec_per_sentence=0.021
+5.3,xlm-roberta-large-conll03 (en) | текст у нижньому регістрі,F1,0.8,P=0.786; R=0.815; sec_per_sentence=0.021
