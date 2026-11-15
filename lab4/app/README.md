@@ -7,7 +7,6 @@ CLI-застосунок: приймає речення, через локаль
 2. Створіть модель із контекстом 2048 (оптимальна конфігурація, див. нижче): `ollama create qwen3-corrector -f Modelfile`
 3. `pip install openai`
 4. Запустіть:
-   - `python app.py "Дякую за допомагу."` — одне речення;
    - `python app.py` — інтерактивний режим;
    - `python app.py --file sentences.txt` — по одному реченню на рядок.
 
