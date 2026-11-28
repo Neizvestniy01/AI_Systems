@@ -1,5 +1,0 @@
-timestamp,file,seconds,ok,model
-2026-11-26T22:03:45,catProfile.jpg,107.8,True,gemma3:4b
-2026-11-26T22:04:57,image.jpg,72.2,True,gemma3:4b
-2026-11-26T22:06:08,photo_2025-09-20_12-19-29.jpg,70.5,True,gemma3:4b
-2026-11-26T22:52:37,screenshot-2026-03-03-125421-optimized.webp,91.0,True,gemma3:4b
